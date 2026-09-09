@@ -17,8 +17,8 @@ const descricao =
   "Corretora de imóveis em Varginha-MG, CRECI 61470. Compra, venda e locação com atendimento próximo.";
 
 export const metadata: Metadata = {
-  // Trocar pelo domínio real assim que o site for publicado.
-  metadataBase: new URL("https://www.vitoriaribeiroimoveis.com.br"),
+  // Trocar quando o domínio definitivo for definido.
+  metadataBase: new URL("https://vitoria-rho.vercel.app"),
   title: titulo,
   description: descricao,
   openGraph: {
