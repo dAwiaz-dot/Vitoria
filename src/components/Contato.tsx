@@ -1,5 +1,7 @@
-import { MessageCircle, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { CONTATO } from "@/lib/constantes";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
+import InstagramIcon from "./icons/InstagramIcon";
 
 export default function Contato() {
   return (
@@ -20,7 +22,7 @@ export default function Contato() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-semibold text-brand-dark hover:bg-gold-light transition-colors"
           >
-            <MessageCircle className="h-4 w-4" /> Chamar no WhatsApp
+            <WhatsAppIcon className="h-4 w-4" /> Chamar no WhatsApp
           </a>
           <a
             href={CONTATO.instagram}
@@ -28,7 +30,7 @@ export default function Contato() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full border border-cream/30 px-6 py-3 text-sm font-semibold hover:bg-cream/10 transition-colors"
           >
-            Instagram
+            <InstagramIcon className="h-4 w-4" /> Instagram
           </a>
         </div>
 

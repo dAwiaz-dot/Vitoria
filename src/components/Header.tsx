@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Home } from "lucide-react";
 import { CONTATO } from "@/lib/constantes";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 const links = [
   { href: "#imoveis", label: "Imóveis" },
@@ -31,9 +32,9 @@ export default function Header() {
           href={CONTATO.whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full bg-brand px-5 py-2 text-sm font-medium text-cream hover:bg-brand-light transition-colors"
+          className="flex items-center gap-2 rounded-full bg-brand px-5 py-2 text-sm font-medium text-cream hover:bg-brand-light transition-colors"
         >
-          WhatsApp
+          <WhatsAppIcon className="h-4 w-4" /> WhatsApp
         </a>
       </div>
     </header>
